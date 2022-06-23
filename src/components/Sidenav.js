@@ -10,14 +10,14 @@ function Sidenav() {
   return (
     <div className="sidenav">
       <div>
-        <div><SaleswhaleIcon className='sidenav-buttons' /></div>
-        <div className='sidenav-unselected'><CampaignIcon className='sidenav-buttons' /></div>
-        <div className='sidenav-selected'><TeamsIcon className='sidenav-buttons' /></div>
-        <div className='sidenav-unselected'><LeadsIcon className='sidenav-buttons' /></div>
-        <div className='sidenav-unselected'><ReportsIcon className='sidenav-buttons' /></div>
+        <div className='sidenav-buttons'><SaleswhaleIcon className='sidenav-icons' /></div>
+        <div className='sidenav-buttons unselected'><CampaignIcon className='sidenav-icons' /></div>
+        <div className='sidenav-buttons selected'><TeamsIcon className='sidenav-icons' /></div>
+        <div className='sidenav-buttons unselected'><LeadsIcon className='sidenav-icons' /></div>
+        <div className='sidenav-buttons unselected'><ReportsIcon className='sidenav-icons' /></div>
       </div>
       <div>
-        <div className='sidenav-unselected'><HelpIcon className='sidenav-buttons' /></div>
+        <div className='sidenav-buttons unselected'><HelpIcon className='sidenav-icons' /></div>
       </div>
     </div>
   );
