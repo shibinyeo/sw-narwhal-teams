@@ -1,0 +1,52 @@
+body {
+  position: relative;
+  background: #F1F4F8;
+}
+
+.sidenav {
+  position: fixed;
+  /* position: absolute; */
+  left: 0%;
+  right: 94.73%;
+  top: 0%;
+  /* bottom: -0.08%; */
+  bottom: 0%;
+  background: #042235;
+}
+
+.navbar {
+  position: absolute;
+  left: 5.27%;
+  /* right: -0.13%; */
+  right: 0%;
+  top: 0%;
+  bottom: 93.33%;
+  background: #fff;
+}
+
+.header {
+  position: absolute;
+  left: 5.27%;
+  right: 0%;
+  top: 6.67%;
+  bottom: 81.17%;
+  background: #fff;
+}
+
+.content {
+  position: absolute;
+  left: 8.04%;
+  right: 25.56%;
+  top: 22.33%;
+  /* bottom: -1.08%; */
+  background: #fff;
+}
+
+.activityfeed {
+  position: absolute;
+  left: 76.61%;
+  right: 2.57%;
+  top: 22.33%;
+  bottom: 39.33%;
+  background: #fff;
+}
