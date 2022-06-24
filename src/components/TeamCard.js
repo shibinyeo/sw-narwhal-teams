@@ -6,28 +6,28 @@ import { ReactComponent as LeadsIcon } from "../icons/icon-leads-small.svg";
 
 function TeamCard(props) {
   return (
-    <div className='teamcard'>
+    <div className={`teamcard ${props.archived && "archived"}`}>
       <div className='teamcard-top'>
         <div className='card-header'>
           <div className='team-details'>
-            {/* Placeholder for Team Logo */}
+            <img src={props.img} alt="" />
             <div className='title-details'>
-              <h3>Axa</h3>
-              <p>Created 28 July 2018</p>
+              <h3>{props.name}</h3>
+              <p>{props.created && "Created on"} {props.created}</p>
             </div>
           </div>
-          <StarActive />
+          {props.favorite ? <StarActive /> : <StarDefault />}
         </div>
-        <p>AXA is a French multinational insurance firm headquartered in the 8th arrondissement ...</p>
+        <p>{props.desc}</p>
       </div>
       <div className='teamcard-bottom'>
         <div>
           <ConversationsIcon />
-          <p>XX Campaigns</p>
+          <p>{props.campaign} Campaigns</p>
         </div>
         <div>
           <LeadsIcon />
-          <p>XX Leads</p>
+          <p>{props.leads} Leads</p>
         </div>
       </div>
     </div>
