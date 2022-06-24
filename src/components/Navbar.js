@@ -8,14 +8,16 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className='navbar-details'>
-        <div className='appname-container'><p className='appname'>NARWHAL</p></div>
-        <div className='breadcrumbs-container'><p className='breadcrumbs'>Teams</p></div>
+        <div className='appname'><p>NARWHAL</p></div>
+        <div className='breadcrumbs'><p>Teams</p></div>
       </div>
       <div className='navbar-details'>
         <NotificationIcon className='notification-icon' />
         <p className='welcome'>Hello, John</p>
-        <img className='profile-pic' src={johnprofile} alt="John" />
-        <Caret className='caret'/>
+        <div className='profile-settings'>
+          <img className='profile-pic' src={johnprofile} alt="John" />
+          <Caret />
+        </div>
       </div>
     </div>
   );

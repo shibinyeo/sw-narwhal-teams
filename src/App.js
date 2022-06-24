@@ -6,12 +6,16 @@ import Activityfeed from "./components/Activityfeed";
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Sidenav />
-      <Navbar />
-      <Header />
-      <Content />
-      <Activityfeed />
+      <div className="app-content">
+        <Navbar />
+        <Header />
+        <div className="app-data">
+          <Content />
+          <Activityfeed />
+        </div>
+      </div>
     </div>
   );
 }

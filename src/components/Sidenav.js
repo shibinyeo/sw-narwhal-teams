@@ -8,7 +8,7 @@ import { ReactComponent as HelpIcon } from "../icons/icon-help.svg";
 
 function Sidenav() {
   return (
-    <div className="sidenav">
+    <nav className="sidenav">
       <div>
         <div className='sidenav-buttons'><SaleswhaleIcon className='sidenav-icons' /></div>
         <div className='sidenav-buttons unselected'><CampaignIcon className='sidenav-icons' /></div>
@@ -19,7 +19,7 @@ function Sidenav() {
       <div>
         <div className='sidenav-buttons unselected'><HelpIcon className='sidenav-icons' /></div>
       </div>
-    </div>
+    </nav>
   );
 }
 
