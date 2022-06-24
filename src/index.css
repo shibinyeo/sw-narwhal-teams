@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html, body {
   position: relative;
   margin: 0;
@@ -60,18 +64,32 @@ html, body {
   align-items: center;
 }
 
-.appname {
+.appname-container {
   padding: 0 2rem;
   border-right: 1px solid #E2E2E2;
 }
 
-.breadcrumbs {
+.appname {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.breadcrumbs-container {
   padding: 0 1.5rem;
+}
+
+.breadcrumbs {
+  font-size: 18px;
 }
 
 .notification-icon {
   margin-right: 1rem;
   transform: translateY(-10%);
+}
+
+.welcome {
+  font-size: 14px;
+  opacity: 0.5;
 }
 
 .profile-pic {
@@ -82,17 +100,97 @@ html, body {
 
 .caret {
   margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 /* ========== 3) Header ========== */
 
 .header {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   left: 5.27%;
   right: 0%;
   top: 6.67%;
-  bottom: 81.17%;
-  background: #fff;
+  /* bottom: 81.17%; */
+  background: #ffffff;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.header-title p {
+  font-size: 30px;
+  margin-left: 1rem;
+  color: #1A1919;
+}
+
+.create-team-button {
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  width: 12rem;
+  margin: auto 2.3rem;
+  background-color: #40D2BF;
+}
+
+.create-team-button p {
+  color: #ffffff;
+  margin-left: 0.75rem;
+  font-size: 14px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5rem;
+}
+
+.search p {
+  margin-left: 0.75rem;
+  font-size: 16px;
+  color: #999999;
+}
+
+.tab-panel {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  /* height: auto; */
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+.active-tab {
+  border-bottom: 3px solid #0083E3;
+  color: #0083E3;
 }
 
 /* ========== 4) Content ========== */
