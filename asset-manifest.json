@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/sw-narwhal-teams/static/css/main.5139e30a.css",
+    "main.js": "/sw-narwhal-teams/static/js/main.3d2bfb81.js",
+    "static/media/Proxima Nova Font.otf": "/sw-narwhal-teams/static/media/Proxima Nova Font.7bc9ce404c297c24f210.otf",
+    "static/media/sw-logo-white.svg": "/sw-narwhal-teams/static/media/sw-logo-white.2e6f22ac8df3a227de0817186e4ce631.svg",
+    "static/media/icon-teams.svg": "/sw-narwhal-teams/static/media/icon-teams.2cb3edbae8f25b120548514a1e5d8f2f.svg",
+    "static/media/icon-teams-grey.svg": "/sw-narwhal-teams/static/media/icon-teams-grey.e9cc187294d866f59091c4a637949296.svg",
+    "static/media/menu-notification.svg": "/sw-narwhal-teams/static/media/menu-notification.0e9f77ebc55c825f5b8fd9c70ebfb0fb.svg",
+    "static/media/star-default.svg": "/sw-narwhal-teams/static/media/star-default.59835bcb135baa53d262231d7c337550.svg",
+    "static/media/icon-leads-small.svg": "/sw-narwhal-teams/static/media/icon-leads-small.51530f3bbeda68d6fa418cf837232c52.svg",
+    "static/media/icon-leads.svg": "/sw-narwhal-teams/static/media/icon-leads.a3d0d49f951135c6037153aee22fbca6.svg",
+    "static/media/icon-help.svg": "/sw-narwhal-teams/static/media/icon-help.c0d350d40025c7b0ce668366a79a6ed3.svg",
+    "static/media/icon-campaign.svg": "/sw-narwhal-teams/static/media/icon-campaign.c1fc6814c18dfa982b86e8844d2f7323.svg",
+    "static/media/icon-conversations-small.svg": "/sw-narwhal-teams/static/media/icon-conversations-small.c02a4750b32d9463558f65618ff1f993.svg",
+    "static/media/icon-reports.svg": "/sw-narwhal-teams/static/media/icon-reports.fdc71a4e83ff95f0f0d89f50eb0e1355.svg",
+    "static/media/star-active.svg": "/sw-narwhal-teams/static/media/star-active.36e5fe672590d1bc0b722746ce8c8678.svg",
+    "static/media/icon-search.svg": "/sw-narwhal-teams/static/media/icon-search.57a5090e05f767b200d186eee1dc0f9d.svg",
+    "index.html": "/sw-narwhal-teams/index.html",
+    "static/media/caret.svg": "/sw-narwhal-teams/static/media/caret.fb878cde4531100bff89a8c2e0bd2eb8.svg",
+    "static/media/icon-plus.svg": "/sw-narwhal-teams/static/media/icon-plus.2effbadd68fdc6dbe2f36830240e692c.svg",
+    "main.5139e30a.css.map": "/sw-narwhal-teams/static/css/main.5139e30a.css.map",
+    "main.3d2bfb81.js.map": "/sw-narwhal-teams/static/js/main.3d2bfb81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5139e30a.css",
+    "static/js/main.3d2bfb81.js"
+  ]
+}
