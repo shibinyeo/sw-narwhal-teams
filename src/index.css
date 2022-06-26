@@ -9,7 +9,7 @@
 }
 
 :root {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 html, body {
@@ -20,7 +20,7 @@ html, body {
   background: #F1F4F8;
 }
 
-/* ========== 1) App Layout ========== */
+/* ============================== 1) App Layout ============================== */
 
 .app-container {
   display: flex;
@@ -33,7 +33,7 @@ html, body {
 
 .app-data {
   display: flex;
-  height: calc(100% - 14.05rem);
+  height: calc(100% - 12.4rem);
   overflow-y: scroll;
   gap: 1rem;
   padding: 2.5rem;
@@ -43,7 +43,7 @@ html, body {
   display: none;
 }
 
-/* ========== 2) Sidenav ========== */
+/* ============================== 2) Sidenav ============================== */
 
 .sidenav {
   display: flex;
@@ -72,7 +72,7 @@ html, body {
   background: #011724;
 }
 
-/* ========== 3) Navbar ========== */
+/* ============================== 3) Navbar ============================== */
 
 .navbar {
   position: relative;
@@ -139,7 +139,7 @@ html, body {
   height: 2.5rem;
 }
 
-/* ========== 4) Header ========== */
+/* ============================== 4) Header ============================== */
 
 .header {
   position: relative;
@@ -202,6 +202,7 @@ html, body {
   margin-left: 0.75rem;
   font-size: 1rem;
   color: #999999;
+  cursor: text;
 }
 
 .tab-panel {
@@ -238,12 +239,12 @@ li {
   color: #0083E3;
 }
 
-/* ========== 5) Content ========== */
+/* ============================== 5) Content ============================== */
 
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0 auto auto 0;
+  margin: 0 1rem auto 0;
   width: 66vw;
   background: #fff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
@@ -276,7 +277,7 @@ li {
 .teamcard {
   display: flex;
   flex-direction: column;
-  width: 18.5rem;
+  width: 18rem;
   height: 11rem;
   border: 1px solid #E4E7EC;
   border-radius: 4px;
@@ -353,12 +354,12 @@ li {
   opacity: 0.45;
 }
 
-/* ========== 6) Activity Feed ========== */
+/* ============================== 6) Activity Feed ============================== */
 
 .activityfeed {
   display: flex;
   flex-direction: column;
-  width: 21vw;
+  flex-grow: 1;
   margin-bottom: auto;
   background: #fff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
