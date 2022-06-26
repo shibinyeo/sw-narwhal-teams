@@ -13,7 +13,7 @@ function TeamCard(props) {
             <img src={props.img} alt="" />
             <div className='title-details'>
               <h3>{props.name}</h3>
-              <p>{props.created && "Created on"} {props.created}</p>
+              <p>{props.created && "Created on"} {props.created || "Created some time ago"}</p>
             </div>
           </div>
           {props.favorite ? <StarActive /> : <StarDefault />}
